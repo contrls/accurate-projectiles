@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "accurate_projectiles",
+  "version": "${version}",
+  "name": "Accurate Projectiles",
+  "description": "Removes random launch spread from player-thrown ender pearls, wind charges, and potions. Other projectile behavior is unchanged.",
+  "authors": ["Project contributors"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.accurateprojectiles.AccurateProjectiles"]
+  },
+  "mixins": ["accurate-projectiles.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
